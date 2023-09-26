@@ -1,0 +1,150 @@
+body {
+    background-color: #eaf6f6;
+    
+        align-items: center;
+        justify-content: center;
+  }
+      .container1 {
+        text-align: center;
+      }
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+    margin-top: 40px;
+  }
+
+  h1 {
+   color: #66bfbf;
+  }
+
+  h3 {
+    color: #66bfbf;
+    text-align: center;
+  }
+    img {
+        width: 150px; 
+        height: 150px; 
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      td {
+        text-align: center;
+        vertical-align: middle;
+      }
+
+      .profile-container {
+        display: flex;
+        flex-direction: column;
+  margin-bottom: 20px;
+        align-items: center;
+      }
+
+.container {
+  text-align: center;
+}
+   .social-media-list {
+      list-style-type: none;
+      padding: 0;
+      align-items: center;
+      margin: 0;
+    }
+
+    .social-media-item {
+      margin-bottom: 10px;
+       align-items: center;
+    }
+
+    .social-media-icon {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+
+    .facebook-icon {
+      color: #1877f2;
+    }
+
+    .twitter-icon {
+      color: #1da1f2;
+    }
+
+    .instagram-icon {
+      color: #e4405f;
+    }
+
+    .linkedin-icon {
+      color: #0a66c2;
+    }
+
+    .youtube-icon {
+      color: #ff0000;
+    }
+
+.social-media-link i {
+  margin-right: 5px;
+}
+    .work-experience {
+      margin: 20px auto;
+      width: 70%;
+    }
+
+    .work-experience table {
+      border-collapse: collapse;
+      border: 3px solid #ccc;
+      width: 100%;
+margin-bottom: 30px;
+    }
+
+    .work-experience th,
+    .work-experience td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+
+    .work-experience th {
+      background-color: #66bfbf;
+      color: white;
+    }
+
+    .work-experience tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    .work-experience tbody tr:hover {
+      background-color: #ddd;
+    }
+
+    .skills-table {
+      margin: 20px auto;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .skills-table table {
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .skills-table td {
+      padding: 10px;
+    }
+ .gradient-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, #66bfbf, #468c8c);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+
+  .gradient-button:hover {
+    background-image: linear-gradient(to right, #468c8c, #66bfbf);
+  }
